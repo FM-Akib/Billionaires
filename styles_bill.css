@@ -1,0 +1,33 @@
+.All-Billionaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.head{
+    background-color:rgb(255, 255, 255);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    background-color:#dddd;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 1rem;
+    gap:5px;
+    
+}
+.vl {
+    border-left: 6px solid green;
+    height: 100px;
+}
+.btn-showAll{
+    background-color: seagreen;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 150px;
+}
